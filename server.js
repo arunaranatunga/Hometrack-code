@@ -16,7 +16,7 @@ app.use((err, req, res, next) => {
     if (err.status === 400) {
         res.status(400).send({ error: 'Could not decode request: JSON parsing failed' });
     }else {
-        res.status(500).send({ error: 'Resource cannot found...' });
+        res.status(500).send({ error: 'Internal Server Error' });
     }
 });
 
