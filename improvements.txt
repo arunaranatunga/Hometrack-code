@@ -1,0 +1,6 @@
+Coding style
+Architecture
+Validation
+Error handling
+Logging
+Continuous integration
