@@ -1,0 +1,15 @@
+{
+  "name": "hometrack",
+  "version": "1.0.0",
+  "description": "Hometrack Code Test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aruna Ranatunga",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
